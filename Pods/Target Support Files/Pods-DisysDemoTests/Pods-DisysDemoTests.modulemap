@@ -1,0 +1,6 @@
+framework module Pods_DisysDemoTests {
+  umbrella header "Pods-DisysDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

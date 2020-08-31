@@ -1,0 +1,6 @@
+framework module Pods_DisysDemo {
+  umbrella header "Pods-DisysDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
