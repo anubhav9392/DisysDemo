@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		131FABDA24FD30FD00C5DF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FABD924FD30FD00C5DF85 /* AppDelegate.swift */; };
 		131FABDC24FD30FD00C5DF85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FABDB24FD30FD00C5DF85 /* SceneDelegate.swift */; };
-		131FABDE24FD30FD00C5DF85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FABDD24FD30FD00C5DF85 /* ViewController.swift */; };
 		131FABE124FD30FD00C5DF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131FABDF24FD30FD00C5DF85 /* Main.storyboard */; };
 		131FABE424FD30FD00C5DF85 /* DisysDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 131FABE224FD30FD00C5DF85 /* DisysDemo.xcdatamodeld */; };
 		131FABE624FD30FF00C5DF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131FABE524FD30FF00C5DF85 /* Assets.xcassets */; };
 		131FABE924FD30FF00C5DF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131FABE724FD30FF00C5DF85 /* LaunchScreen.storyboard */; };
 		131FABF424FD30FF00C5DF85 /* DisysDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FABF324FD30FF00C5DF85 /* DisysDemoTests.swift */; };
 		131FABFF24FD30FF00C5DF85 /* DisysDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FABFE24FD30FF00C5DF85 /* DisysDemoUITests.swift */; };
+		131FAC1524FD341000C5DF85 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC1424FD341000C5DF85 /* News.swift */; };
+		131FAC1724FD343000C5DF85 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC1624FD343000C5DF85 /* ApiService.swift */; };
+		131FAC1924FD344D00C5DF85 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC1824FD344D00C5DF85 /* AccountViewModel.swift */; };
+		131FAC1B24FD348200C5DF85 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC1A24FD348200C5DF85 /* UIViewController.swift */; };
+		131FAC1D24FD34BE00C5DF85 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC1C24FD34BE00C5DF85 /* RegistrationViewController.swift */; };
+		131FAC1F24FD352700C5DF85 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC1E24FD352700C5DF85 /* HomeViewController.swift */; };
+		131FAC2124FD355400C5DF85 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC2024FD355400C5DF85 /* LoginViewController.swift */; };
+		131FAC2324FD359000C5DF85 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC2224FD359000C5DF85 /* NewsTableViewCell.swift */; };
+		131FAC2524FD35B300C5DF85 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAC2424FD35B300C5DF85 /* NewsListViewModel.swift */; };
+		340257A90DB2D8A565916C76 /* Pods_DisysDemo_DisysDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D26AF3454F6937BC64DA80 /* Pods_DisysDemo_DisysDemoUITests.framework */; };
+		BD91C6BF0230B8C1D1218F99 /* Pods_DisysDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CACBE6A883F44CE2895216 /* Pods_DisysDemo.framework */; };
+		F324F8A39199B2B1217F1EB4 /* Pods_DisysDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8665F1C083549AA27B259E3 /* Pods_DisysDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +50,6 @@
 		131FABD624FD30FD00C5DF85 /* DisysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		131FABD924FD30FD00C5DF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		131FABDB24FD30FD00C5DF85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		131FABDD24FD30FD00C5DF85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		131FABE024FD30FD00C5DF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		131FABE324FD30FD00C5DF85 /* DisysDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DisysDemo.xcdatamodel; sourceTree = "<group>"; };
 		131FABE524FD30FF00C5DF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +61,24 @@
 		131FABFA24FD30FF00C5DF85 /* DisysDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisysDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131FABFE24FD30FF00C5DF85 /* DisysDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisysDemoUITests.swift; sourceTree = "<group>"; };
 		131FAC0024FD30FF00C5DF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131FAC1424FD341000C5DF85 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		131FAC1624FD343000C5DF85 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		131FAC1824FD344D00C5DF85 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		131FAC1A24FD348200C5DF85 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		131FAC1C24FD34BE00C5DF85 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		131FAC1E24FD352700C5DF85 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		131FAC2024FD355400C5DF85 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		131FAC2224FD359000C5DF85 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		131FAC2424FD35B300C5DF85 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		52D26AF3454F6937BC64DA80 /* Pods_DisysDemo_DisysDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisysDemo_DisysDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531354FF66CBE61EC6446F3D /* Pods-DisysDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisysDemoTests.release.xcconfig"; path = "Target Support Files/Pods-DisysDemoTests/Pods-DisysDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5875FC128C6956A18D6C3175 /* Pods-DisysDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisysDemo.debug.xcconfig"; path = "Target Support Files/Pods-DisysDemo/Pods-DisysDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7870F9DAC93F79F6FE7FE192 /* Pods-DisysDemo-DisysDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisysDemo-DisysDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-DisysDemo-DisysDemoUITests/Pods-DisysDemo-DisysDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78F8ACAFCA35A45460756C10 /* Pods-DisysDemo-DisysDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisysDemo-DisysDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-DisysDemo-DisysDemoUITests/Pods-DisysDemo-DisysDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5CACBE6A883F44CE2895216 /* Pods_DisysDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisysDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBAD8A86713F20275A70186 /* Pods-DisysDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisysDemo.release.xcconfig"; path = "Target Support Files/Pods-DisysDemo/Pods-DisysDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C382EF745EE82214F7BE956B /* Pods-DisysDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisysDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DisysDemoTests/Pods-DisysDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8665F1C083549AA27B259E3 /* Pods_DisysDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisysDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD91C6BF0230B8C1D1218F99 /* Pods_DisysDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F324F8A39199B2B1217F1EB4 /* Pods_DisysDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340257A90DB2D8A565916C76 /* Pods_DisysDemo_DisysDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +116,8 @@
 				131FABF224FD30FF00C5DF85 /* DisysDemoTests */,
 				131FABFD24FD30FF00C5DF85 /* DisysDemoUITests */,
 				131FABD724FD30FD00C5DF85 /* Products */,
+				189834BECA76FF22E3869A34 /* Pods */,
+				B0883395C4AC323E6021A85E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +134,14 @@
 		131FABD824FD30FD00C5DF85 /* DisysDemo */ = {
 			isa = PBXGroup;
 			children = (
-				131FABD924FD30FD00C5DF85 /* AppDelegate.swift */,
-				131FABDB24FD30FD00C5DF85 /* SceneDelegate.swift */,
-				131FABDD24FD30FD00C5DF85 /* ViewController.swift */,
-				131FABDF24FD30FD00C5DF85 /* Main.storyboard */,
+				131FAC1324FD32E200C5DF85 /* TableViewCell */,
+				131FAC1224FD329C00C5DF85 /* ViewModels */,
+				131FAC1024FD326900C5DF85 /* Service */,
+				131FAC0F24FD325E00C5DF85 /* Models */,
+				131FAC0E24FD323800C5DF85 /* ViewControllers */,
+				131FAC0D24FD323000C5DF85 /* Delegates */,
+				131FAC0C24FD322400C5DF85 /* Storyboard */,
 				131FABE524FD30FF00C5DF85 /* Assets.xcassets */,
-				131FABE724FD30FF00C5DF85 /* LaunchScreen.storyboard */,
 				131FABEA24FD30FF00C5DF85 /* Info.plist */,
 				131FABE224FD30FD00C5DF85 /* DisysDemo.xcdatamodeld */,
 			);
@@ -131,6 +166,91 @@
 			path = DisysDemoUITests;
 			sourceTree = "<group>";
 		};
+		131FAC0C24FD322400C5DF85 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				131FABDF24FD30FD00C5DF85 /* Main.storyboard */,
+				131FABE724FD30FF00C5DF85 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		131FAC0D24FD323000C5DF85 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				131FABDB24FD30FD00C5DF85 /* SceneDelegate.swift */,
+				131FABD924FD30FD00C5DF85 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		131FAC0E24FD323800C5DF85 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				131FAC1A24FD348200C5DF85 /* UIViewController.swift */,
+				131FAC1C24FD34BE00C5DF85 /* RegistrationViewController.swift */,
+				131FAC1E24FD352700C5DF85 /* HomeViewController.swift */,
+				131FAC2024FD355400C5DF85 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		131FAC0F24FD325E00C5DF85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				131FAC1424FD341000C5DF85 /* News.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		131FAC1024FD326900C5DF85 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				131FAC1624FD343000C5DF85 /* ApiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		131FAC1224FD329C00C5DF85 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				131FAC1824FD344D00C5DF85 /* AccountViewModel.swift */,
+				131FAC2424FD35B300C5DF85 /* NewsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		131FAC1324FD32E200C5DF85 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				131FAC2224FD359000C5DF85 /* NewsTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		189834BECA76FF22E3869A34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5875FC128C6956A18D6C3175 /* Pods-DisysDemo.debug.xcconfig */,
+				BDBAD8A86713F20275A70186 /* Pods-DisysDemo.release.xcconfig */,
+				78F8ACAFCA35A45460756C10 /* Pods-DisysDemo-DisysDemoUITests.debug.xcconfig */,
+				7870F9DAC93F79F6FE7FE192 /* Pods-DisysDemo-DisysDemoUITests.release.xcconfig */,
+				C382EF745EE82214F7BE956B /* Pods-DisysDemoTests.debug.xcconfig */,
+				531354FF66CBE61EC6446F3D /* Pods-DisysDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0883395C4AC323E6021A85E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5CACBE6A883F44CE2895216 /* Pods_DisysDemo.framework */,
+				52D26AF3454F6937BC64DA80 /* Pods_DisysDemo_DisysDemoUITests.framework */,
+				E8665F1C083549AA27B259E3 /* Pods_DisysDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 131FAC0324FD30FF00C5DF85 /* Build configuration list for PBXNativeTarget "DisysDemo" */;
 			buildPhases = (
+				CD0CB9BABC06D3B3A92C37AA /* [CP] Check Pods Manifest.lock */,
 				131FABD224FD30FD00C5DF85 /* Sources */,
 				131FABD324FD30FD00C5DF85 /* Frameworks */,
 				131FABD424FD30FD00C5DF85 /* Resources */,
+				5DCBBCCE93C18082CC4E3010 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 131FAC0624FD30FF00C5DF85 /* Build configuration list for PBXNativeTarget "DisysDemoTests" */;
 			buildPhases = (
+				202EC1CBB8788F8506FCC32C /* [CP] Check Pods Manifest.lock */,
 				131FABEB24FD30FF00C5DF85 /* Sources */,
 				131FABEC24FD30FF00C5DF85 /* Frameworks */,
 				131FABED24FD30FF00C5DF85 /* Resources */,
@@ -173,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 131FAC0924FD30FF00C5DF85 /* Build configuration list for PBXNativeTarget "DisysDemoUITests" */;
 			buildPhases = (
+				7F65E3962A3307EBE085AAC2 /* [CP] Check Pods Manifest.lock */,
 				131FABF624FD30FF00C5DF85 /* Sources */,
 				131FABF724FD30FF00C5DF85 /* Frameworks */,
 				131FABF824FD30FF00C5DF85 /* Resources */,
+				E6A008F21BDB54BBCD0D9CA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,15 +382,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		202EC1CBB8788F8506FCC32C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisysDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCBBCCE93C18082CC4E3010 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisysDemo/Pods-DisysDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisysDemo/Pods-DisysDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisysDemo/Pods-DisysDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F65E3962A3307EBE085AAC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisysDemo-DisysDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD0CB9BABC06D3B3A92C37AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisysDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A008F21BDB54BBCD0D9CA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisysDemo-DisysDemoUITests/Pods-DisysDemo-DisysDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisysDemo-DisysDemoUITests/Pods-DisysDemo-DisysDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisysDemo-DisysDemoUITests/Pods-DisysDemo-DisysDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		131FABD224FD30FD00C5DF85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131FABDE24FD30FD00C5DF85 /* ViewController.swift in Sources */,
+				131FAC1924FD344D00C5DF85 /* AccountViewModel.swift in Sources */,
+				131FAC2324FD359000C5DF85 /* NewsTableViewCell.swift in Sources */,
 				131FABDA24FD30FD00C5DF85 /* AppDelegate.swift in Sources */,
+				131FAC1D24FD34BE00C5DF85 /* RegistrationViewController.swift in Sources */,
+				131FAC1724FD343000C5DF85 /* ApiService.swift in Sources */,
+				131FAC1F24FD352700C5DF85 /* HomeViewController.swift in Sources */,
 				131FABDC24FD30FD00C5DF85 /* SceneDelegate.swift in Sources */,
+				131FAC1524FD341000C5DF85 /* News.swift in Sources */,
+				131FAC2524FD35B300C5DF85 /* NewsListViewModel.swift in Sources */,
+				131FAC1B24FD348200C5DF85 /* UIViewController.swift in Sources */,
 				131FABE424FD30FD00C5DF85 /* DisysDemo.xcdatamodeld in Sources */,
+				131FAC2124FD355400C5DF85 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +672,7 @@
 		};
 		131FAC0424FD30FF00C5DF85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5875FC128C6956A18D6C3175 /* Pods-DisysDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +691,7 @@
 		};
 		131FAC0524FD30FF00C5DF85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBAD8A86713F20275A70186 /* Pods-DisysDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +710,7 @@
 		};
 		131FAC0724FD30FF00C5DF85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C382EF745EE82214F7BE956B /* Pods-DisysDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +733,7 @@
 		};
 		131FAC0824FD30FF00C5DF85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531354FF66CBE61EC6446F3D /* Pods-DisysDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +756,7 @@
 		};
 		131FAC0A24FD30FF00C5DF85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F8ACAFCA35A45460756C10 /* Pods-DisysDemo-DisysDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +777,7 @@
 		};
 		131FAC0B24FD30FF00C5DF85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7870F9DAC93F79F6FE7FE192 /* Pods-DisysDemo-DisysDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

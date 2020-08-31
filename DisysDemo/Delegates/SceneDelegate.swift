@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KeychainSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,6 +18,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        let keychain = KeychainSwift()
+        let userName = keychain.get("Email") ?? "";
+        if(userName != ""){
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let homeVC = storyBoard.instantiateViewController(identifier: "HomeVC") as! HomeViewController
+            self.window?.rootViewController = UINavigationController(rootViewController: homeVC);
+        }
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
